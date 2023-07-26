@@ -1,0 +1,9 @@
+﻿@using MyBlogApp.Models
+@model List<Tag>
+
+@foreach (var tag in Model)
+{
+    <h2>@tag.Name</h2>
+    <br />
+}
+
